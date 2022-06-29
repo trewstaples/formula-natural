@@ -26,14 +26,13 @@ body {
     margin-top: 20px;
 }
 
-.header__menu {
+.header__menu, .header__social {
     margin-left: 3.32%;
     margin-top: 20px;
 }
 
 .menu__list {
     display: flex;
-    /* padding-top: 32px; */
     align-items: center;
     gap: 49px;
 }
@@ -44,5 +43,11 @@ body {
     line-height: 18px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
+}
+
+.social-list {
+   display: flex;
+   align-items: center;
+   gap: 27px;
 }
 
