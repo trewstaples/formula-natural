@@ -16,6 +16,7 @@ body {
 
 .header {
     display: flex;
+    align-items: center;
     width: 100%;
     background-color: rgb(40, 171, 226);
 }
@@ -26,6 +27,22 @@ body {
 }
 
 .header__menu {
-    
+    margin-left: 3.32%;
+    margin-top: 20px;
+}
+
+.menu__list {
+    display: flex;
+    /* padding-top: 32px; */
+    align-items: center;
+    gap: 49px;
+}
+
+.menu__list a{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
 }
 
