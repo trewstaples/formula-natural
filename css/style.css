@@ -10,3 +10,22 @@ li {
     list-style:none;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(40, 171, 226);
+}
+
+.header__logo-wrapper {
+    margin-left: 19.4%;
+    margin-top: 20px;
+}
+
+.header__menu {
+    
+}
+
