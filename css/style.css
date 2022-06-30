@@ -15,29 +15,37 @@ body {
 }
 
 .header {
-    display: flex;
-    align-items: center;
     width: 100%;
+    max-height: 80px;
     background-color: rgb(40, 171, 226);
 }
 
-.header__logo-wrapper {
-    margin-left: 19.4%;
-    margin-top: 20px;
+.content-container {
+    width: 1260px;
+    margin: auto;
 }
 
-.header__menu, .header__social {
-    margin-left: 3.32%;
-    margin-top: 20px;
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.header__menu {
+    margin-left: 52px;
+    margin-top:4px;
+    margin-bottom: 4px;
 }
 
 .menu__list {
     display: flex;
     align-items: center;
-    gap: 49px;
+    gap: 48px;
 }
 
 .menu__list a{
+    font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
@@ -45,14 +53,14 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.header__social {
+    margin-left: 164px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 .social-list {
    display: flex;
    align-items: center;
-   gap: 27px;
+   gap: 20px;
 }
-
-
- /* 
-1) Числа должны делиться на 4
-2) 
- */
