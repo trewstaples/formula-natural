@@ -109,6 +109,9 @@ body {
 
 .hero-main__image {
     position: relative;
+}
+
+.hero-main__image--first {
     right: 325px;
     top: 44px; 
     width: 828px;
@@ -134,4 +137,12 @@ body {
     width: 100%;
     height: 700px;
     background-image: url('../img/background-2.jpg');
+}
+
+.hero-main__image--second {
+    position: relative;
+    right: 50%;
+    bottom: 0.4%;
+    width: 675px;
+    height: 907px;
 }
