@@ -98,7 +98,7 @@ body {
   max-height: 700px; 
 }
 
-.hero-info__text {
+.hero-info__text--first {
     width: 761px;
     height: 220px;
     border: 2px solid green; 
@@ -154,5 +154,34 @@ body {
     position: relative;
     width: 818.48px;
     height: 709px;
-    bottom: 35.5%;
+    bottom: 50.5%;
+}
+
+.hero-info__text--second {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    position: relative;
+    max-width: 392px;
+    max-height: 372px;
+    top: 24%;
+    right: 24%;
+
+}
+
+.hero-info__text-item {
+    height: 91px;
+    color: #FFFFFF;;
+    font-style: normal;
+    line-height: 89.93%;
+    text-align: right;
+}
+
+.second-screen-text {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 89.93%;
+    text-align: right;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
 }
