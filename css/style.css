@@ -93,7 +93,9 @@ body {
 }
 
 .hero-info {
-  border: 2px solid green;  
+  border: 2px solid green; 
+  position: relative;
+  max-height: 700px; 
 }
 
 .hero-info__text {
@@ -104,6 +106,7 @@ body {
 
 .hero-main {
     position: relative;
+    max-height: 700px;
     border: 2px solid orange;
 }
 
@@ -143,6 +146,13 @@ body {
     position: relative;
     right: 50%;
     bottom: 0.4%;
-    width: 675px;
-    height: 907px;
+    width: 676px;
+    height: 904px;
+}
+
+.hero-info__img {
+    position: relative;
+    width: 818.48px;
+    height: 709px;
+    bottom: 35.5%;
 }
