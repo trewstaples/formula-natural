@@ -97,7 +97,16 @@ body {
 }
 
 .hero-main {
+    position: relative;
     border: 2px solid green;
+}
+
+.hero-main__image {
+    position: relative;
+    right: 325px;
+    top: 44px; 
+    width: 828px;
+    height: 558px;
 }
 
 .hero-info__title--text,
