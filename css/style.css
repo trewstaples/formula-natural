@@ -80,20 +80,35 @@ body {
     background-size: 100% 100%;
 }
 
-.hero-info__title--text {
+.first-screen .content-container {
+    display: flex;
+    gap: 30px;
+    border: 2px solid black;
+}
+
+.hero-info {
+  border: 2px solid orange;  
+}
+
+.hero-info__title {
+    width: 761px;
+    height: 220px;
+    border: 2px solid orange; 
+}
+
+.hero-main {
+    border: 2px solid green;
+}
+
+.hero-info__title--text,
+.hero-info__title--sign {
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 96px;
 line-height: 89.93%;
-/* or 86px */
-
 color: #28ABE2;
 }
 
-.hero-main__image--pack {
-    position: absolute;
-    width: 828px;
-    height: 558px;
-    right: 24%;
-    top: 8%;
+.hero-info__title--sign {
+    font-size: 54px;
 }
