@@ -59,8 +59,16 @@ body {
     margin-bottom: 8px;
 }
 
-.social-list {
+.social-icons {
    display: flex;
    align-items: center;
    gap: 20px;
+}
+
+.social-icons--phone {
+    background: url('../img/phone.svg') no-repeat center;
+}
+
+.social-icons--vk {
+    background: url('../img/vk-logo.svg') no-repeat center top 54%;
 }
