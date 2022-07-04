@@ -22,12 +22,12 @@ body {
     background-color: rgb(40, 171, 226);
 }
 
-.content-container {
-    width: 1260px;
+.container {
+    width: 1311px;
     margin: auto;
 }
 
-.content-wrapper {
+.header__wrap {
     display: flex;
     align-items: center;
     padding-top:10px;
@@ -80,49 +80,21 @@ body {
 .first-screen {
     width: 100%;
     height: 620px;
-    background-image: url('../img/background-1.jpg');
+    background: url('../img/background-1.jpg');
     background-size: 100% 100%;
 }
 
-.first-screen .content-container,
-.second-screen .content-container
-{
+.first-screen__wrap {
     display: flex;
-    gap: 30px;
     border: 2px solid black;
 }
 
-.hero-info {
-  border: 2px solid green; 
-  position: relative;
-  max-height: 700px; 
-}
-
-.hero-info__text--first {
+.first-screen__info {
     width: 761px;
-    height: 220px;
-    border: 2px solid green; 
+    border: 2px solid red; 
 }
 
-.hero-main {
-    position: relative;
-    max-height: 700px;
-    border: 2px solid orange;
-}
-
-.hero-main__image {
-    position: relative;
-}
-
-.hero-main__image--first {
-    right: 325px;
-    top: 44px; 
-    width: 828px;
-    height: 558px;
-}
-
-.hero-info__text--title,
-.hero-info__text--sign {
+.first-screen__title {
     font-style: normal;
     font-weight: 500;
     font-size: 96px;
@@ -130,9 +102,20 @@ body {
     color: #28ABE2;
 }
 
-.hero-info__text--sign {
-    font-size: 54px;
+.first-screen__sign {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 89.93%;
+    color: #28ABE2;
 }
+
+.first-screen__main {
+    width: 828px;
+    height: 558px;
+    border: 2px solid blue; 
+}
+
 
 /* 2 screen */
 

@@ -8,9 +8,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="content-container">
-        <div class="content-wrapper">
-          <div class="header__logo-wrapper">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__logo-wrap">
             <img src="./img/main-logo.svg" alt="Логотип Formula Natural" class="header__logo" />
           </div>
 
@@ -62,24 +62,34 @@
     </header>
 
     <main class="main">
+      <!-- Шаблон -->
       <div class="first-screen">
-        <div class="content-container">
-          <div class="hero-info">
-            <div class="hero-info__text--first">
-              <p class="hero-info__text--title">Передовое <br />питание</p>
-              <p class="hero-info__text--sign">корма класса супер премиум</p>
+        <div class="container">
+          <div class="first-screen__wrap flex">
+            <div class="first-screen__info flex__col">
+              <p class="first-screen__title">Передовое <br />питание</p>
+              <p class="first-screen__sign">корма класса супер премиум</p>
             </div>
-          </div>
-          <div class="hero-main">
-            <div class="hero-main__image hero-main__image--first">
-              <img src="./img/food-pack.png" alt="Пачка корма Food Natural" class="hero-main__image--pack" />
+            <div class="first-screen__main flex__col">
+              <div class="first-screen__image first-screen__image--first">
+                <img src="./img/food-pack.png" alt="Пачка корма Food Natural" class="hero-main__image--pack" />
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="second-screen">
-        <div class="content-container">
+        <div class="container">
+          <div class="second-screen__wrap flex">
+            <div class="second-screen__wrap flex__col"></div>
+            <div class="second-screen__info flex__col"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-screen">
+        <div class="container">
           <div class="hero-main">
             <div class="hero-main__image hero-main__image--second">
               <img src="./img/dog+bg.png" alt="Картинка собаки" class="" />
@@ -111,6 +121,15 @@
           </div>
         </div>
       </div>
+      <!-- 
+      <div class="third-screen">
+        <div class="container">
+          <div class="third-screen__wrap grid">
+            <div class="third-screen__main grid__col"></div>
+            <div class="third-screen__visual grid__col"></div>
+          </div>
+        </div>
+      </div> -->
     </main>
   </body>
 </html>
